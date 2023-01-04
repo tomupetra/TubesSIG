@@ -40,10 +40,10 @@
             </li>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="Artikel.php">Artikel</a>
+            <a class="nav-link" href="Artikel.php">Berita Terkini</a>
           </li>
           <li class="nav-item active">
-              <a class="nav-link" href="Aplikasi.php">Aplikasi</a>
+              <a class="nav-link" href="Aplikasi.php">Peta Desa</a>
            <li class="nav-item">
               <a class="nav-link" href="Riwayat.php">Riwayat</a>
             </li>
@@ -79,7 +79,8 @@
             <div class="circle-shape bg-secondary text-white">
               <span class="mai-chatbubbles-outline"></span>
             </div>
-            <p><span>Chat</span> with a doctors</p>
+           
+            <a class="nav-link" href="#">Peta Administrasi</a>
           </div>
         </div>
         <div class="col-md-4 py-3 wow zoomIn">

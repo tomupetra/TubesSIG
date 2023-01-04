@@ -26,16 +26,16 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "dewia";
+$dbname = "webta";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
 if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
-}
-$ambilid=$_GET['idn'];
-$sql = "SELECT * FROM webta where id=$ambilid "; 
+  die("Connection failed : " . mysqli_connect_error());
+} 
+$ambilid = $_GET['idn'];
+$sql = "SELECT * FROM webta where id=$ambilid"; 
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) { //perulangan

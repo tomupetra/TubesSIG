@@ -38,10 +38,10 @@
             <li class="nav-item">
               <a class="nav-link" href="Beranda.php">Beranda</a>
             </li><li class="nav-item active ">
-              <a class="nav-link" href="Artikel.php">Artikel</a>
+              <a class="nav-link" href="Artikel.php">Berita Terkini</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="Aplikasi.php">Aplikasi</a>
+              <a class="nav-link" href="Aplikasi.php">Peta Desa</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Riwayat.php">Riwayat</a>
@@ -83,7 +83,7 @@
           $servername = "localhost";
           $username = "root";
           $password = "";
-          $dbname = "dewia";
+          $dbname = "webta";
 
           // Create connection
           $conn = mysqli_connect($servername, $username, $password, $dbname);
